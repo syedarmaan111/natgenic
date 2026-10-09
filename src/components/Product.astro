@@ -1,44 +1,7 @@
 ---
-import Placeholder from './Placeholder.astro';
 import { INSTAGRAM_URL } from '../data/content';
 ---
-<section id="product">
-  <div class="wrap split">
-    <div class="product-stage reveal">
-      <Placeholder
-        id="IMG-PRODUCT-MAIN"
-        label="Natgenic bottle: main product shot"
-        hint="Studio quality, clean background, soft shadow. Portrait 4:5 ~1400×1750px"
-        variant="ph--tall"
-      />
-      <div class="thumbs">
-        <Placeholder id="IMG-PRODUCT-DETAIL-1" label="Label close-up" variant="ph--sq" />
-        <Placeholder id="IMG-PRODUCT-DETAIL-2" label="Dropper / oil texture" variant="ph--sq" />
-        <Placeholder id="IMG-PRODUCT-DETAIL-3" label="Bottle in hand / in use" variant="ph--sq" />
-      </div>
-    </div>
-    <div class="reveal">
-      <p class="eyebrow">The Product</p>
-      <h2 class="h-lg">NATGENIC</h2>
-      <p class="h-md" style="font-weight:400;color:var(--ink-soft);margin-top:12px">Hair Oil</p>
-      <div class="divider" style="margin-top:28px"></div>
-      <p class="lead">
-        A concentrated natural hair oil intended for people dealing with hair fall,
-        thinning hair and genetic hair loss. It is made to be used as part of a
-        consistent, long-term hair-care routine rather than a one-time treatment.
-      </p>
-      <ul class="spec">
-        <li><span>Product</span><span>Natgenic Hair Oil</span></li>
-        <li><span>Size</span><span>60 ml</span></li>
-        <li><span>Price</span><span>&#8377;600</span></li>
-        <li><span>Intended For</span><span>Hair fall &middot; Thinning &middot; Genetic hair loss</span></li>
-      </ul>
-      <a class="btn btn-primary btn-lg" href={INSTAGRAM_URL} target="_blank" rel="noopener">
-        Purchase on Instagram <span class="arw">&rarr;</span>
-      </a>
-      <p class="no-checkout">
-        No cart. No checkout. Orders are placed directly through our Instagram page.
-      </p>
-    </div>
-  </div>
-</section>
+<section id="product"><div class="wrap split">
+  <div class="product-stage reveal"><img class="content-image product-main-image" src="/images/bottle-collection.jpg" alt="Natgenic natural hair oil collection" loading="lazy" /><div class="thumbs"><img src="/images/bottle-plants.jpg" alt="Natgenic bottle label" loading="lazy" /><img src="/images/bottle-palm.jpg" alt="Natgenic hair oil bottle" loading="lazy" /><img src="/images/bottle-collection.jpg" alt="Natgenic order packaging" loading="lazy" /></div></div>
+  <div class="reveal"><p class="eyebrow">The Product</p><h2 class="h-lg">NATGENIC</h2><p class="h-md" style="font-weight:400;color:var(--ink-soft);margin-top:12px">Hair Oil</p><div class="divider" style="margin-top:28px"></div><p class="lead">A concentrated natural hair oil intended for people dealing with hair fall, thinning hair and genetic hair loss. It is made to be used as part of a consistent, long-term hair-care routine rather than a one-time treatment.</p><ul class="spec"><li><span>Product</span><span>Natgenic Hair Oil</span></li><li><span>Size</span><span>60 ml</span></li><li><span>Price</span><span>₹600</span></li><li><span>Intended For</span><span>Hair fall · Thinning · Genetic hair loss</span></li></ul><a class="btn btn-primary btn-lg" href={INSTAGRAM_URL} target="_blank" rel="noopener">Purchase on Instagram <span class="arw">→</span></a><p class="no-checkout">No cart. No checkout. Orders are placed directly through our Instagram page.</p></div>
+</div></section>

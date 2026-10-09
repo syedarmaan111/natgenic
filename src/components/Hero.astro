@@ -1,37 +1,16 @@
 ---
-import Placeholder from './Placeholder.astro';
 import { INSTAGRAM_URL } from '../data/content';
 ---
 <section class="hero" id="hero">
   <div class="wrap hero-grid">
     <div class="reveal">
-      <p class="eyebrow">Natgenic &middot; Natural Hair Oil</p>
+      <p class="eyebrow">Natgenic · Natural Hair Oil</p>
       <h1 class="h-xl">Hair Care Designed for Hair Fall &amp; Thinning</h1>
       <div class="divider" style="margin-top:20px"></div>
-      <p class="lead">
-        Natgenic is a concentrated hair oil formulated to support healthier-looking,
-        stronger hair and to help address concerns around hair fall, thinning
-        and genetic hair loss.
-      </p>
-      <div class="hero-badges" style="margin-top:22px">
-        <span class="badge">Hair Fall</span>
-        <span class="badge">Thinning</span>
-        <span class="badge">Genetic Hair Loss</span>
-      </div>
-      <div class="hero-meta">
-        <p class="price-note">60 ml &middot; &#8377;600</p>
-        <a class="btn btn-primary btn-lg" href={INSTAGRAM_URL} target="_blank" rel="noopener">
-          Purchase on Instagram <span class="arw">&rarr;</span>
-        </a>
-      </div>
+      <p class="lead">Natgenic is a concentrated hair oil formulated to support healthier-looking, stronger hair and to help address concerns around hair fall, thinning and genetic hair loss.</p>
+      <div class="hero-badges" style="margin-top:22px"><span class="badge">Hair Fall</span><span class="badge">Thinning</span><span class="badge">Genetic Hair Loss</span></div>
+      <div class="hero-meta"><p class="price-note">60 ml · ₹600</p><a class="btn btn-primary btn-lg" href={INSTAGRAM_URL} target="_blank" rel="noopener">Purchase on Instagram <span class="arw">→</span></a></div>
     </div>
-    <div class="hero-stage reveal">
-      <Placeholder
-        id="IMG-HERO-BOTTLE"
-        label="Hero shot — actual Natgenic bottle"
-        hint="Clean background, soft shadow, premium lighting. Portrait 4:5 ~1400×1750px"
-        variant="ph--hero"
-      />
-    </div>
+    <div class="hero-stage reveal"><img class="hero-image" src="/images/bottle-palm.jpg" alt="Natgenic natural hair oil bottle among green leaves" /></div>
   </div>
 </section>

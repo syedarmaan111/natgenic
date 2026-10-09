@@ -8,7 +8,7 @@ export interface TimelineStep {
   text: string;
 }
 
-export const INSTAGRAM_URL = 'https://www.instagram.com/natgenic';
+export const INSTAGRAM_URL = 'https://www.instagram.com/natgenic.in?cplk=c2M4aHlwZ2tqdWtp';
 
 export const NAV_LINKS = [
   { label: 'The Product', href: '#product-intro' },

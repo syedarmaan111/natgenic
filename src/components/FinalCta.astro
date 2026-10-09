@@ -1,25 +1,7 @@
 ---
-import Placeholder from './Placeholder.astro';
 import { INSTAGRAM_URL } from '../data/content';
 ---
-<section class="final" id="final-cta">
-  <div class="wrap final-grid">
-    <div class="reveal">
-      <Placeholder id="IMG-LOGO" label="Natgenic logo" variant="ph--logo" />
-      <h2 class="h-xl">Your Hair Deserves Consistency.</h2>
-      <p class="sub">Start your Natgenic routine today.</p>
-      <p class="price-note final-meta">60 ml &middot; &#8377;600</p>
-      <a class="btn btn-primary btn-lg" href={INSTAGRAM_URL} target="_blank" rel="noopener">
-        Purchase on Instagram <span class="arw">&rarr;</span>
-      </a>
-    </div>
-    <div class="reveal">
-      <Placeholder
-        id="IMG-FINAL-BOTTLE"
-        label="Closing product image: Natgenic bottle"
-        hint="Clean background, premium lighting. Landscape 16:10"
-        variant="ph--wide"
-      />
-    </div>
-  </div>
-</section>
+<section class="final" id="final-cta"><div class="wrap final-grid">
+  <div class="reveal"><img class="final-logo" src="/images/natgenic-logo.jpg" alt="Natgenic" /><h2 class="h-xl">Your Hair Deserves Consistency.</h2><p class="sub">Start your Natgenic routine today.</p><p class="price-note final-meta">60 ml · ₹600</p><a class="btn btn-primary btn-lg" href={INSTAGRAM_URL} target="_blank" rel="noopener">Purchase on Instagram <span class="arw">→</span></a></div>
+  <div class="reveal"><img class="final-image" src="/images/bottle-collection.jpg" alt="Natgenic natural hair oil bottles and order packaging" loading="lazy" /></div>
+</div></section>

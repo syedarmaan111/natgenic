@@ -4,10 +4,7 @@ import { NAV_LINKS } from '../data/content';
 <header class="site-header" id="top">
   <div class="wrap header-inner">
     <a href="#top" aria-label="Natgenic home">
-      <div class="ph ph--logo">
-        <span class="ph-id">IMG-LOGO</span>
-        <span class="ph-label">Natgenic logo</span>
-      </div>
+      <img class="brand-logo" src="/images/natgenic-logo.jpg" alt="Natgenic — The Natural Hair Treatment" />
     </a>
     <nav class="nav-links" aria-label="Primary">
       {NAV_LINKS.map((link) => <a href={link.href}>{link.label}</a>)}
